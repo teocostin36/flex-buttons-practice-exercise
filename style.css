@@ -1,0 +1,27 @@
+.list-item {
+    min-width: 200px;
+    height: 150px;
+    background-color: darkmagenta;
+    margin: 10px;
+    flex-grow: 1;
+}
+
+.highlight {
+    background-color: magenta;
+}
+
+p {
+    color: #fff;
+    line-height: 150px;
+    text-align: center;
+    margin: 0;
+}
+
+.first-list, .second-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.second-list {
+    flex-direction: column;
+}
